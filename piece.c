@@ -1,5 +1,6 @@
 //un autre commentaire
 //un commentaire
+//ommentaire 
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
