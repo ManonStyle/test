@@ -1,0 +1,171 @@
+
+********** TUTO EXPEDITIF POUR GIT ET GITHUB **********
+
+
+ - A editer si vous trouvez qu'il y a un manque 
+
+
+********** INSTALATION RÉCUPÉRETION DU PROJET **********
+
+
+ - instalation - dans le terminal
+
+sudo apt-get install git-core gitk
+
+
+ - activation de la couleur dans Git - aide à la lisibilité des messages dans la console
+
+git config --global color.diff auto
+git config --global color.status auto
+git config --global color.branch auto
+
+
+ - configuration du nom ou pseudo
+
+git config --global user.name "votre_pseudo"
+
+
+ - configuration du mail
+
+git config --global user.email moi@email.com
+
+
+********** CRÉATION D'UNE CLÉ SSH **********
+
+
+cd ~/.ssh
+	- verifie qu'il n'y a pas déja de clé existante
+
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+	- génération de la clé
+	- press entre *3
+
+ouvrir le fichier copier /Users/nom_user/.ssh/id_rsa.pub et me l'envoyer par mail
+	- c'est la clé public .pub
+
+ssh -T git@github.com
+	- tester la connection ssh
+
+
+********** CLONE DU DEPOT **********
+
+
+ - récupération du projet rush_hour
+
+git clone "adresse du depot"
+
+ - pour notre projet
+
+git clone git@github.com:ManonStyle/L2_rush-hour.git
+
+	- sa va créer le dossier et y télécharger les fichiers sources 
+
+
+********** LES COMMANDES LES PLUS UTILISÉ **********
+
+
+git pull
+git status
+git add .
+git commit -a -m "message"
+git push
+git log
+
+
+********** LES COMMANDES **********
+
+git status 
+	- indique les fichiers que vous avez modifiés récemment
+
+git diff
+	- permet de voir concrètement ce que tu a modifié
+
+git commit -a
+git commit -a -m "message"
+	- appliquer tous les changements
+	- option -m pour ajouter le message
+
+git commit nomfichier1 nomfichier2
+	- appliquer les changements uniquement au fichier spécifié
+
+git add nomfichier1 nomfichier2
+	- indispensable lorsque tu viens de créer de nouveaux fichiers 
+	- git ne le(s) connaît pas encore 
+	- cela va lui permet de le(s) prendre en compte pour le prochain commit
+
+	
+	- lors du commit il faut mettre un commentaire sinon celui-ci sera annulé
+	- le commit est local, tand qu'il n'a pas été envoyé sur le server il peut être annulé
+
+
+git log
+	- historique des commits / mmodif
+	- on peut retrouver tout ce qui a été changé depuis le début du projet
+
+git log -p
+	- pour avoir le détail des lignes qui ont été ajoutées et retirées dans chaque commit
+
+git log --stat
+	- version plus courte
+
+git commit --amend
+	- modifier le dernier message de commit
+
+git reset HEAD^
+	- annule le dernier commit (soft) et revient à l’avant-dernier
+	- seul le commit est retiré de git 
+	- tes fichiers ne sont pas modifié
+
+git reset --hard HEAD^
+	- annuler tous les changements du dernier commit (hard)
+	- les modifications effectués sur les fichiers sont aussi annulé
+
+git checkout nomfichier
+	- annule les modifications d’un fichier avant un commit
+
+git checkout numero_du_log
+	- raméne dans la configuration de ce log 
+	- on cc/cv le numero du commit après la commande git log
+
+git checkout master
+	-pour revenir au dernier commit
+
+
+git pull
+	- télécharge les nouveautés depuis le serveur
+
+git push
+	- envoie les nouvelles modifications (commits) sur le serveur
+
+
+********** TRAVAILLER AVEC DES BRANCHES **********
+
+
+git branch
+	- pour voir toutes les branches
+
+git branch nom_branch
+	- créer une branche
+
+git checkout nom_branch
+	- changer de branche
+
+git merge nom_branch
+	- intègre la branche nom_branch dans la branche courant
+
+git branch -d nom_branch
+	- supprime la branche nom_branch qui a été fusionné
+
+git branch -D nom_branch
+	- supprime la branche nom_branch qui n'a pas été fusionné
+
+
+
+
+
+
+
+
+
+
+
