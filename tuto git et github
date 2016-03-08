@@ -5,6 +5,22 @@
  - A editer si vous trouvez qu'il y a un manque 
 
 
+********** MISE A JOUR **********
+
+
+ - changer l'éditeur - rajouter cette ligne au fiifier .bachrc
+
+	export EDITOR=emacs		emacs ou tout autre editeur 
+
+
+ - source principal
+	
+	https://openclassrooms.com/courses/gerez-vos-codes-source-avec-git
+
+
+********** FIN MISE A JOUR **********
+
+
 ********** INSTALATION RÉCUPÉRETION DU PROJET **********
 
 
