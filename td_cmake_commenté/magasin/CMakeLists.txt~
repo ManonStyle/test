@@ -1,0 +1,8 @@
+add_executable(magasin client.c magasin.c)
+
+#gcc -std=c99 client.c magasin.c -o magasin
+
+target_link_libraries(magasin bcb sdd m)
+
+install(TARGETS magasin RUNTIME DESTINATION ${MAGASIN_BIN_DIR}/bin)
+install(FILES client.h DESTINATION ${MAGASIN_BIN_DIR}/include)

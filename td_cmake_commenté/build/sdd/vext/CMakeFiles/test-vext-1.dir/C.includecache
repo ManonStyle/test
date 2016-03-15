@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gg/Bureau/projet/cmake/source-cmake/sdd/vext/test-vext-1.c
+stdlib.h
+-
+stdio.h
+-
+memoire.h
+/home/gg/Bureau/projet/cmake/source-cmake/sdd/vext/memoire.h
+chaine.h
+/home/gg/Bureau/projet/cmake/source-cmake/sdd/vext/chaine.h
+vext.h
+/home/gg/Bureau/projet/cmake/source-cmake/sdd/vext/vext.h
+
+/home/gg/Bureau/projet/cmake/source-cmake/sdd/vext/vext.c
+stdlib.h
+-
+stdio.h
+-
+assert.h
+-
+string.h
+-
+memoire.h
+/home/gg/Bureau/projet/cmake/source-cmake/sdd/vext/memoire.h
+vext.h
+/home/gg/Bureau/projet/cmake/source-cmake/sdd/vext/vext.h
+
+/home/gg/Bureau/projet/cmake/source-cmake/sdd/vext/vext.h
+

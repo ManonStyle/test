@@ -1,0 +1,4 @@
+add_library (bcb chaine/chaine.c memoire/memoire.c)
+
+install(TARGETS bcb ARCHIVE DESTINATION ${MAGASIN_BIN_DIR}/lib)
+install(FILES chaine/chaine.h memoire/memoire.h DESTINATION ${MAGASIN_BIN_DIR}/include)

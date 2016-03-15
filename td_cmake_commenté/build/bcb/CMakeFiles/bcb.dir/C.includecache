@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gg/Bureau/projet/cmake/source-cmake/bcb/chaine/chaine.c
+ctype.h
+-
+stdlib.h
+-
+string.h
+-
+memoire.h
+/home/gg/Bureau/projet/cmake/source-cmake/bcb/chaine/memoire.h
+chaine.h
+/home/gg/Bureau/projet/cmake/source-cmake/bcb/chaine/chaine.h
+
+/home/gg/Bureau/projet/cmake/source-cmake/bcb/chaine/chaine.h
+
+/home/gg/Bureau/projet/cmake/source-cmake/bcb/memoire/memoire.c
+stdio.h
+-
+stdlib.h
+-
+stddef.h
+-
+string.h
+-
+memoire.h
+/home/gg/Bureau/projet/cmake/source-cmake/bcb/memoire/memoire.h
+
+/home/gg/Bureau/projet/cmake/source-cmake/bcb/memoire/memoire.h
+stddef.h
+-
+

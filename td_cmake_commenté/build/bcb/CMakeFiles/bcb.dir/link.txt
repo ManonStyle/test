@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbcb.a  CMakeFiles/bcb.dir/chaine/chaine.c.o CMakeFiles/bcb.dir/memoire/memoire.c.o
+/usr/bin/ranlib libbcb.a

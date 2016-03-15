@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/test-vext-1.dir/test-vext-1.c.o CMakeFiles/test-vext-1.dir/vext.c.o  -o test-vext-1 -rdynamic ../../bcb/libbcb.a 

@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/magasin.dir/client.c.o CMakeFiles/magasin.dir/magasin.c.o  -o magasin -rdynamic ../bcb/libbcb.a ../sdd/libsdd.a -lm 

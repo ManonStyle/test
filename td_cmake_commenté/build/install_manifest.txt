@@ -1,0 +1,9 @@
+/home/gg/Bureau/projet/cmake/source-cmake/build/lib/libbcb.a
+/home/gg/Bureau/projet/cmake/source-cmake/build/include/chaine.h
+/home/gg/Bureau/projet/cmake/source-cmake/build/include/memoire.h
+/home/gg/Bureau/projet/cmake/source-cmake/build/bin/magasin
+/home/gg/Bureau/projet/cmake/source-cmake/build/include/client.h
+/home/gg/Bureau/projet/cmake/source-cmake/build/lib/libsdd.a
+/home/gg/Bureau/projet/cmake/source-cmake/build/include/file.h
+/home/gg/Bureau/projet/cmake/source-cmake/build/include/paire.h
+/home/gg/Bureau/projet/cmake/source-cmake/build/include/vext.h

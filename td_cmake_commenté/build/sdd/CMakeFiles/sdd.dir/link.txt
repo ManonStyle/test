@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsdd.a  CMakeFiles/sdd.dir/file/file.c.o CMakeFiles/sdd.dir/paire/paire.c.o CMakeFiles/sdd.dir/vext/vext.c.o
+/usr/bin/ranlib libsdd.a

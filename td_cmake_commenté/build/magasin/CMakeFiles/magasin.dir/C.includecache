@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gg/Bureau/projet/cmake/source-cmake/magasin/client.c
+stdio.h
+-
+memoire.h
+/home/gg/Bureau/projet/cmake/source-cmake/magasin/memoire.h
+chaine.h
+/home/gg/Bureau/projet/cmake/source-cmake/magasin/chaine.h
+client.h
+/home/gg/Bureau/projet/cmake/source-cmake/magasin/client.h
+
+/home/gg/Bureau/projet/cmake/source-cmake/magasin/client.h
+
+/home/gg/Bureau/projet/cmake/source-cmake/magasin/magasin.c
+stdlib.h
+-
+stdio.h
+-
+signal.h
+-
+string.h
+-
+unistd.h
+-
+math.h
+-
+memoire.h
+/home/gg/Bureau/projet/cmake/source-cmake/magasin/memoire.h
+chaine.h
+/home/gg/Bureau/projet/cmake/source-cmake/magasin/chaine.h
+file.h
+/home/gg/Bureau/projet/cmake/source-cmake/magasin/file.h
+client.h
+/home/gg/Bureau/projet/cmake/source-cmake/magasin/client.h
+
