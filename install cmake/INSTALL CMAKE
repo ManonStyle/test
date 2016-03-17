@@ -1,0 +1,17 @@
+
+
+./bootstrap
+  make      
+  make install
+
+/usr/local/bin/cmake
+
+.bachrc
+
+ajouter PATH dans bachrc
+
+export PATH="/usr/local/bin:$PATH"
+
+source .bachrc			mise a jour de .bachrc
+echo $PATH			verifier qu'il est la 
+cmake --version			
